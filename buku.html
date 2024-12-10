@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--narbar nya-->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Perpustakaan</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Perpustakaan</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="Index.html">Beranda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">buku</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Bantuan.
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="tambuku.html">Tambahkan buku</a></li><hr>
+                    <li><a class="dropdown-item" href="#">cari buku</a> </li>
+                    <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Ada kendala?</a></li>
+                  </ul>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <containe class="Container1" id="beranda">
+       <div class="isibuku">
+        <div class="container text-center">
+            
+            <div class="row">
+                <h6>List buku</h6>
+              <div class="col">
+                <img src="Algorithme.jpg" alt="">
+                <p>Algorithms for Sparse Linear Systems</p>
+                <a href="https://drive.google.com/drive/folders/1SSgnmEZZ6eQqybw4WN81OxCa7-8fDQSM?dmr=1&ec=wgc-drive-hero-goto" target="_blank"><button class="btn btn-primary" type="button" id="1">Buka</button></a>
+              </div>
+              <div class="col">
+                <img src="c.jpg" alt="">
+                <p>Computer Went To School</p>
+                <a href="https://drive.google.com/drive/folders/1zhI9on1Tm7ITtOYWWa6aKrgVKb3VFaiT?dmr=1&ec=wgc-drive-hero-goto" target="_blank"><button class="btn btn-primary" type="button" id="1">Buka</button></a>
+              </div>
+              <div class="col">
+                <img src="ai.jpg" alt="">
+                <p>What Was Artificial Intelligence</p>
+                <a href="https://drive.google.com/drive/folders/1SSgnmEZZ6eQqybw4WN81OxCa7-8fDQSM?dmr=1&ec=wgc-drive-hero-goto" target="_blank"><button class="btn btn-primary" type="button" id="1">Buka</button></a>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="kf.jpg" alt="">
+                    <p>Early Computer Science Education</p>
+                    <a href="https://drive.google.com/drive/folders/1YuSb3GJibDLqqZFUAopuAvPOfze3LDrj?dmr=1&ec=wgc-drive-hero-goto" target="_blank"><button class="btn btn-primary" type="button" id="1">Buka</button></a>
+                </div>
+                  <div class="col">
+                    <img src="com.jpg" alt="">
+                    <p>How Computers Entered the Classroom, 1960–2000</p>
+                    <a href="https://drive.google.com/drive/folders/107YukovBFzo5X4SwWrn6p54OWg47bGdM?dmr=1&ec=wgc-drive-hero-goto" target="_blank"><button class="btn btn-primary" type="button" id="1">Buka</button></a>
+                  </div>
+                  <div class="col">
+                    <img src="ml.jpg" alt="">
+                    <p>Manifold Learning</p>
+                    <a href="https://drive.google.com/drive/folders/1STJX9ywVG2FVymWJ5Krit6qC4_IUFh5S?dmr=1&ec=wgc-drive-hero-goto" target="_blank"><button class="btn btn-primary" type="button" id="1">Buka</button></a>
+                  </div>
+              </div>
+            <div class="row">
+                <div class="col">
+                    <img src="aoa.jpg" alt="">
+                    <p>Architecture of Advanced Numerical Analysis Systems</p>
+                    <a href="https://drive.google.com/drive/folders/1RnYnalKnjSwdcd5Aq19J5tNX49z62fLk?dmr=1&ec=wgc-drive-hero-goto" target="_blank"><button class="btn btn-primary" type="button" id="1">Buka</button></a>
+                  </div>
+                  <div class="col">
+                    <img src="Pfc.jpg" alt="">
+                    <p>Programming for Computations</p>
+                    <a href="https://drive.google.com/drive/folders/1JWCtTRCYsOmXnnMh4AIpX--5a7uctN0P?dmr=1&ec=wgc-drive-hero-goto" target="_blank"><button class="btn btn-primary" type="button" id="1">Buka</button></a>
+                  </div>
+                  <div class="col">
+                    <img src="p.jpg" alt="">
+                    <p>Preparing For Life In A Digital Worl</p>
+                    <a href="https://drive.google.com/drive/folders/1yv_LCGDS7K91rxOHt9kci3KVvEkQjwk4?dmr=1&ec=wgc-drive-hero-goto" target="_blank"><button class="btn btn-primary" type="button" id="1">Buka</button></a>
+                  </div>
+              </div>
+            <div class="row">
+                <div class="col">
+                    <img src="Aq.jpg" alt="">
+                    <p>A quantum leap</p>
+                    <a href="https://drive.google.com/drive/folders/1Tln2vVO2O2RQDl6K7sggTTQNKDP0GKDF?dmr=1&ec=wgc-drive-hero-goto" target="_blank"><button class="btn btn-primary" type="button" id="1">Buka</button></a>
+                  </div>
+                  <div class="col">
+                    <img src="ceh.jpg" alt="">
+                    <p>Computational Engineering of Historical Memories</p>
+                    <a href="https://drive.google.com/drive/folders/1RFGmT3aimHeUEYwnRJfsGHbWYcPolGMS?dmr=1&ec=wgc-drive-hero-goto" target="_blank"><button class="btn btn-primary" type="button" id="1">Buka</button></a>
+                  </div>
+                  <div class="col">
+                    <img src="pe.jpg" alt="">
+                    <p>Performance Engineering</p>
+                    <a href="https://drive.google.com/drive/folders/1Dy7N9EglrKdA03fEmJM4tuVGOH3EfMdf?dmr=1&ec=wgc-drive-hero-goto" target="_blank"><button class="btn btn-primary" type="button" id="1">Buka</button></a>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <img src="h.jpg" alt="">
+                    <p>human computer interaction and emerging technologies</p>
+                    <a href="https://drive.google.com/drive/folders/1EuwuqXHLtuBHF1BgOCrM6FbAp6vdCm10?dmr=1&ec=wgc-drive-hero-goto" target="_blank"><button class="btn btn-primary" type="button" id="1">Buka</button></a>
+                  </div>
+                  <div class="col">
+                    <img src="ah.jpg" alt="">
+                    <p>Soon-Cox_2020_Aesthetic-Programming</p>
+                    <a href="https://drive.google.com/drive/folders/1rNIVpHLITCkPs8y8ohqZBEl2pztARofa?dmr=1&ec=wgc-drive-hero-goto" target="_blank"><button class="btn btn-primary" type="button" id="1">Buka</button></a>
+                  </div>
+                  <div class="col">
+                    <img src="af.jpg" alt="">
+                    <p>algorithm for big data</p>
+                    <a href="https://drive.google.com/drive/folders/1Hajw_oeQujJSfRIxc7e5RVKIL-sdUpOo?dmr=1&ec=wgc-drive-hero-goto" target="_blank"><button class="btn btn-primary" type="button" id="1">Buka</button></a>
+                  </div>
+              </div>
+              <div class="col">
+                <p>Tunggu Update bukunya ya :3</p>
+              </div>
+          </div>
+        </div>
+      </containe>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
